@@ -5,42 +5,33 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>縁結び祈願パワーストーン | 黒華</title>
   <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
 
     body {
       background: #fff;
       color: #222;
       font-family: "游明朝", "Yu Mincho", "YuMincho", "ヒラギノ明朝 ProN", "Hiragino Mincho ProN", serif;
-      line-height: 1.9;
+      line-height: 2.0;
       font-size: 16px;
     }
 
-    /* ─── ヘッダー ─── */
     header {
       background: #fff;
       border-bottom: 3px solid #c8a84b;
       padding: 18px 20px;
       text-align: center;
     }
-
     header .brand {
       font-size: 13px;
       letter-spacing: 0.3em;
       color: #888;
     }
 
-    /* ─── ヒーロー ─── */
     .hero {
-      background: #fff;
-      padding: 60px 20px 50px;
+      padding: 70px 20px 60px;
       text-align: center;
       border-bottom: 1px solid #eee;
     }
-
     .hero .catch {
       display: inline-block;
       font-size: 13px;
@@ -48,114 +39,84 @@
       color: #c8a84b;
       border: 1px solid #c8a84b;
       padding: 5px 18px;
-      margin-bottom: 28px;
+      margin-bottom: 30px;
     }
-
     .hero h1 {
-      font-size: clamp(22px, 4vw, 36px);
-      line-height: 1.6;
+      font-size: clamp(22px, 4vw, 38px);
+      line-height: 1.65;
       color: #1a1a1a;
-      margin-bottom: 20px;
+      margin-bottom: 22px;
       letter-spacing: 0.05em;
     }
-
-    .hero h1 em {
-      color: #c0392b;
-      font-style: normal;
-    }
-
+    .hero h1 em { color: #c0392b; font-style: normal; }
     .hero .sub {
       font-size: 15px;
       color: #555;
-      max-width: 560px;
+      max-width: 580px;
       margin: 0 auto 36px;
     }
+    .hero .scroll-hint { font-size: 12px; color: #aaa; letter-spacing: 0.2em; }
 
-    .hero .scroll-hint {
-      font-size: 12px;
-      color: #aaa;
-      letter-spacing: 0.2em;
-    }
-
-    /* ─── セクション共通 ─── */
     section {
-      max-width: 720px;
+      max-width: 740px;
       margin: 0 auto;
-      padding: 64px 24px;
+      padding: 68px 28px;
     }
-
-    section + section {
-      border-top: 1px solid #f0f0f0;
-    }
+    section + section { border-top: 1px solid #f0f0f0; }
 
     .section-label {
       font-size: 11px;
       letter-spacing: 0.35em;
       color: #c8a84b;
-      text-transform: uppercase;
-      margin-bottom: 12px;
+      margin-bottom: 14px;
     }
 
     h2 {
       font-size: clamp(20px, 3vw, 28px);
-      line-height: 1.55;
+      line-height: 1.6;
       color: #1a1a1a;
-      margin-bottom: 28px;
+      margin-bottom: 30px;
       letter-spacing: 0.03em;
     }
-
-    h2 em {
-      color: #c0392b;
-      font-style: normal;
-    }
+    h2 em { color: #c0392b; font-style: normal; }
 
     h3 {
       font-size: 18px;
       color: #1a1a1a;
-      margin: 36px 0 12px;
+      margin: 38px 0 14px;
       padding-left: 14px;
       border-left: 3px solid #c8a84b;
     }
 
-    p {
-      margin-bottom: 20px;
-      color: #333;
-    }
+    p { margin-bottom: 22px; color: #333; }
 
-    /* ─── 強調ブロック ─── */
     .highlight-box {
       background: #fff9f9;
       border: 1px solid #e8c0c0;
       border-left: 4px solid #c0392b;
-      padding: 22px 24px;
+      padding: 22px 26px;
       margin: 32px 0;
       font-size: 15px;
-      line-height: 1.8;
+      line-height: 1.9;
     }
-
     .gold-box {
       background: #fdfaf2;
       border: 1px solid #d4b96a;
       border-left: 4px solid #c8a84b;
-      padding: 22px 24px;
+      padding: 22px 26px;
       margin: 32px 0;
       font-size: 15px;
-      line-height: 1.8;
+      line-height: 1.9;
     }
 
-    /* ─── 声セクション ─── */
+    /* 声 */
     .testimonials {
       background: #fafafa;
-      padding: 64px 24px;
+      padding: 68px 28px;
       border-top: 1px solid #f0f0f0;
       border-bottom: 1px solid #f0f0f0;
     }
-
-    .testimonials-inner {
-      max-width: 720px;
-      margin: 0 auto;
-    }
-
+    .testimonials-inner { max-width: 740px; margin: 0 auto; }
     .testimonial {
       background: #fff;
       border: 1px solid #e8e0d0;
@@ -163,24 +124,10 @@
       padding: 24px 26px;
       margin-bottom: 20px;
     }
+    .testimonial p { font-size: 15px; color: #333; margin-bottom: 10px; }
+    .testimonial .meta { font-size: 12px; color: #999; margin-bottom: 0; }
 
-    .testimonial p {
-      font-size: 15px;
-      color: #333;
-      margin-bottom: 10px;
-    }
-
-    .testimonial .meta {
-      font-size: 12px;
-      color: #999;
-      margin-bottom: 0;
-    }
-
-    /* ─── 商品 ─── */
-    .product-section {
-      background: #fff;
-    }
-
+    /* 商品 */
     .product-image-placeholder {
       width: 100%;
       max-width: 360px;
@@ -196,45 +143,11 @@
       letter-spacing: 0.2em;
     }
 
-    .price-block {
-      background: #1a1a1a;
-      color: #fff;
-      padding: 40px 30px;
-      text-align: center;
-      margin: 40px 0;
-    }
-
-    .price-block .price-label {
-      font-size: 12px;
-      letter-spacing: 0.3em;
-      color: #c8a84b;
-      margin-bottom: 12px;
-    }
-
-    .price-block .price {
-      font-size: 44px;
-      color: #fff;
-      letter-spacing: 0.02em;
-      line-height: 1.2;
-    }
-
-    .price-block .price span {
-      font-size: 18px;
-      color: #ccc;
-    }
-
-    .price-block .tax {
-      font-size: 12px;
-      color: #aaa;
-      margin-top: 6px;
-    }
-
     .includes {
       list-style: none;
-      margin: 24px 0;
+      margin: 24px 0 32px;
       padding: 0;
     }
-
     .includes li {
       padding: 10px 0 10px 22px;
       position: relative;
@@ -242,42 +155,41 @@
       font-size: 15px;
       color: #333;
     }
+    .includes li::before { content: "─"; position: absolute; left: 0; color: #c8a84b; }
 
-    .includes li::before {
-      content: "─";
-      position: absolute;
-      left: 0;
-      color: #c8a84b;
-    }
-
-    /* ─── 保証 ─── */
-    .guarantee {
-      background: #fdfaf2;
-      border: 2px solid #c8a84b;
-      padding: 32px;
+    .price-block {
+      background: #1a1a1a;
+      color: #fff;
+      padding: 40px 30px;
+      text-align: center;
       margin: 36px 0;
-      text-align: center;
     }
+    .price-block .price-label { font-size: 12px; letter-spacing: 0.3em; color: #c8a84b; margin-bottom: 12px; }
+    .price-block .price { font-size: 46px; color: #fff; letter-spacing: 0.02em; line-height: 1.2; }
+    .price-block .price span { font-size: 18px; color: #ccc; }
+    .price-block .tax { font-size: 12px; color: #aaa; margin-top: 8px; }
 
-    .guarantee .g-title {
-      font-size: 18px;
-      color: #c8a84b;
+    .steps { margin: 32px 0; }
+    .step {
+      display: flex;
+      gap: 20px;
+      padding: 18px 0;
+      border-bottom: 1px solid #f0f0f0;
+      align-items: flex-start;
+    }
+    .step-num {
+      font-size: 11px;
       letter-spacing: 0.2em;
-      margin-bottom: 14px;
+      color: #c8a84b;
+      white-space: nowrap;
+      padding-top: 3px;
+      min-width: 60px;
     }
+    .step-body { font-size: 15px; color: #333; }
+    .step-body strong { color: #1a1a1a; }
 
-    .guarantee p {
-      font-size: 14px;
-      color: #555;
-      margin-bottom: 0;
-    }
-
-    /* ─── CTAボタン ─── */
-    .cta-wrap {
-      text-align: center;
-      margin: 40px 0;
-    }
-
+    /* CTA */
+    .cta-wrap { text-align: center; margin: 40px 0; }
     .cta-btn {
       display: inline-block;
       background: #c0392b;
@@ -285,34 +197,28 @@
       font-family: inherit;
       font-size: 17px;
       letter-spacing: 0.15em;
-      padding: 20px 48px;
+      padding: 20px 52px;
       text-decoration: none;
       border: none;
       cursor: pointer;
       transition: background 0.2s;
     }
+    .cta-btn:hover { background: #a93226; }
+    .cta-sub { font-size: 12px; color: #999; margin-top: 10px; letter-spacing: 0.1em; }
 
-    .cta-btn:hover {
-      background: #a93226;
+    .postscript {
+      max-width: 740px;
+      margin: 0 auto;
+      padding: 0 28px 60px;
+    }
+    .postscript p {
+      font-size: 14px;
+      color: #555;
+      margin-bottom: 14px;
     }
 
-    .cta-sub {
-      font-size: 12px;
-      color: #999;
-      margin-top: 10px;
-      letter-spacing: 0.1em;
-    }
+    .divider { text-align: center; color: #c8a84b; letter-spacing: 0.4em; font-size: 13px; padding: 20px 0; }
 
-    /* ─── 区切り ─── */
-    .divider {
-      text-align: center;
-      color: #c8a84b;
-      letter-spacing: 0.4em;
-      font-size: 13px;
-      padding: 20px 0;
-    }
-
-    /* ─── フッター ─── */
     footer {
       background: #1a1a1a;
       color: #888;
@@ -321,244 +227,306 @@
       font-size: 12px;
       letter-spacing: 0.1em;
     }
+    footer .footer-brand { color: #c8a84b; font-size: 16px; letter-spacing: 0.3em; margin-bottom: 12px; }
 
-    footer .footer-brand {
-      color: #c8a84b;
-      font-size: 16px;
-      letter-spacing: 0.3em;
-      margin-bottom: 12px;
-    }
-
-    /* ─── レスポンシブ ─── */
     @media (max-width: 480px) {
-      .price-block .price {
-        font-size: 36px;
-      }
-      .cta-btn {
-        padding: 18px 32px;
-        font-size: 15px;
-      }
+      .price-block .price { font-size: 36px; }
+      .cta-btn { padding: 18px 32px; font-size: 15px; }
     }
   </style>
 </head>
 <body>
 
-  <!-- ヘッダー -->
-  <header>
-    <div class="brand">黒 華 ── 霊視鑑定師</div>
-  </header>
+<header>
+  <div class="brand">黒 華 ── 霊視鑑定師</div>
+</header>
 
-  <!-- ヒーロー -->
-  <div class="hero">
-    <div class="catch">縁結び祈願パワーストーン</div>
-    <h1>
-      あの人が、<em>ふとあなたを思い出す。</em><br>
-      それは、偶然ではない。
-    </h1>
-    <p class="sub">
-      想いが強いのに届かないのは、あなたのせいではありません。<br>
-      あの人の意識が、今、あなたの方を向いていないだけです。
-    </p>
-    <p class="scroll-hint">▼ &nbsp; scroll</p>
+<div class="hero">
+  <div class="catch">縁結び祈願パワーストーン</div>
+  <h1>
+    あなたの恋が叶わない、<em>本当の理由</em><br>
+    ─ 努力の方向を間違えていませんか ─
+  </h1>
+  <p class="sub">
+    このメッセージを開いてくれたあなたに、どうしても伝えたいことがあります。
+  </p>
+  <p class="scroll-hint">▼ &nbsp; scroll</p>
+</div>
+
+
+<!-- 第1通 -->
+<section>
+  <div class="section-label">01 &nbsp; なぜ届かないのか</div>
+  <h2>あなたには今、忘れられない人がいるはずです。</h2>
+
+  <p>毎日、あの人のことを考えている。<br>
+  LINEの通知が来るたびに、心臓が跳ねる。<br>
+  でも、あの人からではない。</p>
+
+  <p>夜、ひとりの布団の中で、あの人の顔が浮かぶ。<br>
+  会いたい。声が聞きたい。隣にいてほしい。<br>
+  でも、現実は何も動いていない。</p>
+
+  <p>ここまで読んで、胸がチクッとした方。<br>
+  今日の話は、あなたのための話です。</p>
+
+  <h3>あなたの想いが届かないのは、あなたのせいではありません</h3>
+
+  <p>多くの方が、恋が叶わない理由を自分に求めます。</p>
+
+  <div class="highlight-box">
+    「私が重いから」<br>
+    「私に魅力がないから」<br>
+    「年齢差があるから」<br>
+    「立場が違うから」<br><br>
+    違います。あなた自身には、何の問題もありません。
   </div>
 
-  <!-- 問題提起 -->
-  <section>
-    <div class="section-label">01 &nbsp; Why</div>
-    <h2>あなたの恋が叶わない、<em>本当の理由</em></h2>
+  <p>私は霊視鑑定師として、これまで何千人もの恋愛相談を見てきました。その中で、一つの確信にたどり着いています。</p>
 
-    <p>
-      毎日、あの人のことを考えている。<br>
-      LINEの通知が来るたびに、心臓が跳ねる。でも、あの人からではない。<br>
-      夜、ひとりの布団の中で、あの人の顔が浮かぶ。
-    </p>
+  <p>想いが強いのに恋が叶わない人と、あっさり叶う人。この違いは、才能でも、容姿でも、運でもない。</p>
 
-    <div class="highlight-box">
-      あなたの想いが届かないのは、<strong>あなたのせいではありません。</strong><br>
-      問題は、あの人の意識のアンテナが今、あなたの方を向いていないこと。ただ、それだけです。
+  <div class="gold-box">
+    「相手の気持ちがどこを向いているか」──ただ、それだけです。
+  </div>
+
+  <h3>あの人のアンテナは、今、あなたを向いていない</h3>
+
+  <p>あなたとあの人の間には、縁の糸がある。本来なら、その糸はあなたたちを結びつけているはずです。では、なぜ現実には叶っていないのか？</p>
+
+  <p>答えはシンプルです。あの人の意識が、今、あなた以外の方向を向いてしまっている。</p>
+
+  <p>仕事。家庭。別の異性。あるいは、過去のトラウマや、現実の忙しさ。あの人の心のアンテナが、あなたの方を向いていない状態なのです。</p>
+
+  <p>あなたがどんなに強く想っても、どんなに泣いても、どんなに祈っても──受け取る側のアンテナが別の方向を向いていたら、あなたの想いは届きようがない。これが、あなたの恋が叶わない本当の理由です。</p>
+
+  <div class="highlight-box">
+    どれだけ素晴らしいラジオ局が電波を飛ばしていても、受信機の周波数が合っていなければ、ただのノイズにしかならない。<br><br>
+    あなたの想いは今、あの人にとってノイズになってしまっている可能性すらあるのです。
+  </div>
+
+  <h3>だから自分磨きでは解決しない</h3>
+
+  <p>よく言われますよね。「自分を磨けば、相手は振り向いてくれる」「執着を手放せば、うまくいく」「自分軸で生きれば、引き寄せられる」</p>
+
+  <p>どれも間違いではありません。でも──相手のアンテナが別の方向を向いている限り、あなたがどんなに輝いても、その光は見えない。</p>
+
+  <p>まず、あの人にこっちを向いてもらうこと。それが、すべての始まりなのです。</p>
+</section>
+
+
+<!-- 第2通 -->
+<section>
+  <div class="section-label">02 &nbsp; 引き寄せの本当の意味</div>
+  <h2>あの人の心を、<em>こちらに向けるたった一つの方法</em></h2>
+
+  <h3>まず、やってはいけないことを話します</h3>
+
+  <p>あの人の意識をこちらに向けたいと思ったとき、多くの方がやってしまうことがあります。LINEを送る。電話する。偶然を装って会いに行く。SNSで存在をアピールする。</p>
+
+  <p>気持ちはわかります。痛いほどわかります。でも──これらはすべて、あなた側のアクションです。あなたが動いて、あなたが追いかけて、あなたがアプローチする。</p>
+
+  <div class="highlight-box">
+    あなたが追えば追うほど、あの人は遠ざかる。<br><br>
+    必要なのは──あなたが追うのではなく、あの人がふと気になってしまう状態を作ること。
+  </div>
+
+  <h3>人が誰かをふと思い出す瞬間の正体</h3>
+
+  <p>あなたにも経験がありませんか？別に何があったわけでもないのに、ふと誰かの顔が浮かぶ。夢に出てきた人が、翌日から妙に気になる。なぜか急に、あの人に連絡したくなった。</p>
+
+  <p>これは偶然ではありません。<strong>波動の共鳴が起きているのです。</strong></p>
+
+  <p>人間の意識は、エネルギーです。あなたが発するエネルギーと、あの人のエネルギーが共鳴したとき、相手はあなたのことをふと思い出す。「なんか気になる」「会いたい気がする」「連絡してみようかな」</p>
+
+  <p>これは、あなたが追いかけた結果ではなく──あの人の内側から湧き上がった、自発的な感情です。だから、この方法で動き出した恋は強い。</p>
+
+  <h3>では、どうやって波動を共鳴する周波数に合わせるのか</h3>
+
+  <p>瞑想？　ヒーリング？　自分磨き？どれも有効ですが、決定的な弱点があります。<strong>持続しないのです。</strong></p>
+
+  <p>瞑想は、している間だけ波動が整います。ヒーリングは、受けた直後だけ。鑑定だって、その瞬間は希望を感じても、数日でまた不安に戻る。</p>
+
+  <p>朝起きてスマホを見た瞬間、あの人からの連絡がない──その一瞬で、整えた波動は崩壊します。</p>
+
+  <div class="gold-box">
+    あなたの波動を24時間365日、共鳴状態に保ち続ける仕組みがなければ、何をやっても同じことの繰り返しなのです。<br><br>
+    24時間、あなたのそばにいて、波動を整え続けてくれるもの。<br>
+    不安が湧いた瞬間に、そっと周波数を戻してくれるもの。<br>
+    あなたが眠っている間も、あの人との共鳴を維持し続けてくれるもの。
+  </div>
+
+  <p>そんなものが、あるのか？あります。</p>
+</section>
+
+
+<!-- 第3通 -->
+<section>
+  <div class="section-label">03 &nbsp; 振り向かせる石の秘密</div>
+  <h2>振り向かせる石は、<em>なぜ市場に出回らないのか</em><br>
+  <span style="font-size:0.75em;">─ 鑑定師だけが知る、天然石の本当の使い方 ─</span></h2>
+
+  <p>天然石──いわゆるパワーストーンです。</p>
+
+  <p>「パワーストーン？　また怪しい話か」「石で恋が叶うなら苦労しない」「前に買ったけど何も変わらなかった」そう思うのは当然です。なぜなら──<strong>世の中に出回っているパワーストーンの99%は、ただの綺麗な石だから。</strong></p>
+
+  <h3>市販のパワーストーンが効かない3つの理由</h3>
+
+  <p><strong>理由①：そもそも誰向けでもない</strong></p>
+  <p>ネットショップの恋愛運アップブレスレット。あれは恋愛で悩んでいる全員に向けて作られています。復縁と片思いでは、必要なエネルギーが全く違う。音信不通の相手と、毎日会える相手では、波動の調整ポイントが真逆。万人向けの石が、あなた個人の問題を解決できるわけがないのです。</p>
+
+  <p><strong>理由②：念入れがされていない</strong></p>
+  <p>天然石には、もともと地球のエネルギーが宿っています。しかし、採掘されて、加工されて、問屋を通って、ショップに並ぶ──その過程で、何十人もの人の手を渡り、さまざまなエネルギーが混入しています。浄化もされていない、念も入っていない石をつけても、効果がないどころか、逆効果になることすらある。</p>
+
+  <p><strong>理由③：一番大切な目的が欠けている</strong></p>
+  <p>市販のパワーストーンには恋愛運、金運、健康運といった、ざっくりとしたテーマしかありません。でも、あなたに必要なのは恋愛運アップではない。<strong>あの人の意識を、あなたの方に向けること──これだけです。</strong></p>
+
+  <div class="highlight-box">
+    あの人とあなたの間にある縁の糸を太くし、あの人がふとあなたを思い出す頻度を上げること。この超具体的な目的に特化した石の選び方と組み合わせ方を知っている人間が、どれだけいると思いますか？鑑定師の中でも、ほんの一握りです。
+  </div>
+
+  <h3>私がたどり着いた振り向かせる石の真実</h3>
+
+  <p>私は鑑定師として、20年以上にわたって人の恋愛を見てきました。その中で、何度も悔しい思いをしました。縁が見えている。相性も良い。本来なら結ばれるはず。なのに、現実が動かない。</p>
+
+  <p>鑑定で見えるだけでは足りない。見えた未来を現実にする力が必要だ。そう思い始めたのが、15年ほど前のことです。そこから私は、世界中の天然石を研究しました。鉱物学の文献。古代の祈願書。各地の霊媒師との交流。そして、膨大な試行錯誤の末にたどり着いたのが──</p>
+
+  <div class="gold-box">
+    <strong>相手のエネルギーフィールドに働きかける石の組み合わせ方</strong>です。<br><br>
+    通常のパワーストーンは持ち主自身に作用します。運気を上げる、メンタルを安定させる。しかし、私の方法は違う。<br><br>
+    あなたの波動をあの人と共鳴する周波数にチューニングし、あの人のエネルギーフィールドにあなたの存在を届ける。石があなたとあの人の間の波動の架け橋になるのです。
+  </div>
+</section>
+
+
+<!-- お客様の声 -->
+<div class="testimonials">
+  <div class="testimonials-inner">
+    <div class="section-label" style="margin-bottom:28px;">実際に何が起きたか</div>
+
+    <div class="testimonial">
+      <p>「4年間音信不通だったツインレイの彼から、石を受け取った5日後にLINEが来ました。心臓が止まるかと思いました」</p>
+      <p class="meta">50代女性 ・ サイレント期間4年</p>
     </div>
 
-    <p>
-      仕事、家庭、別の異性、過去のトラウマ——あの人の心が別の方向を向いている限り、
-      あなたがどんなに強く想っても、どんなに泣いても、どんなに祈っても、
-      その想いは届きようがない。
-    </p>
-
-    <p>
-      どれだけ素晴らしいラジオ局が電波を飛ばしていても、受信機の周波数が合っていなければ、ただのノイズにしかならない。
-      必要なのは、<strong>あの人にこちらを向かせること</strong>。それが、すべての始まりです。
-    </p>
-  </section>
-
-  <!-- 教育① -->
-  <section>
-    <div class="section-label">02 &nbsp; Solution</div>
-    <h2>あの人の心を動かすのは、<em>追いかけることではない</em></h2>
-
-    <p>
-      LINEを送る、電話する、偶然を装って会いに行く——これらはすべてあなた側のアクションです。
-      追えば追うほど、人は遠ざかります。
-    </p>
-
-    <p>
-      必要なのは、<strong>あの人がふと気になってしまう状態を作ること</strong>。
-    </p>
-
-    <div class="gold-box">
-      人が誰かをふと思い出す瞬間——それは偶然ではなく、<strong>波動の共鳴</strong>が起きているのです。<br><br>
-      あなたが発するエネルギーとあの人のエネルギーが共鳴したとき、相手はあなたのことを自然と思い出す。
-      「なんか気になる」「連絡してみようかな」——それはあの人の内側から湧き上がる、自発的な感情です。
+    <div class="testimonial">
+      <p>「ブロックされて半年。石を身につけ始めてから2週間後、ふとInstagramを見たらフォロー申請が来ていて、それが彼だった」</p>
+      <p class="meta">30代女性 ・ 片思い</p>
     </div>
 
-    <p>
-      ただし、瞑想もヒーリングも鑑定も、効果は持続しません。
-      朝起きてスマホを見た瞬間、あの人からの連絡がない——その一瞬で、整えた波動は崩れる。
-    </p>
-
-    <p>
-      <strong>24時間365日、あなたのそばで波動を整え続けてくれるもの</strong>が必要です。
-    </p>
-  </section>
-
-  <!-- 教育② -->
-  <section>
-    <div class="section-label">03 &nbsp; The Stone</div>
-    <h2>なぜ、市場の石では<em>届かないのか</em></h2>
-
-    <h3>理由①　誰向けでもない</h3>
-    <p>
-      恋愛運アップブレスレットは、恋愛で悩む全員向けに作られています。
-      復縁と片思いでは必要なエネルギーが全く違う。万人向けの石が、あなた個人の問題を解決できるわけがありません。
-    </p>
-
-    <h3>理由②　念入れがされていない</h3>
-    <p>
-      天然石は採掘・加工・流通の過程で何十人もの手を渡り、様々なエネルギーが混入しています。
-      浄化も念も入っていない石は、効果がないどころか逆効果になることすらある。
-    </p>
-
-    <h3>理由③　目的が違う</h3>
-    <p>
-      市販の石のテーマは「恋愛運アップ」という漠然としたものです。
-      あなたに必要なのは——<strong>あの人の意識を、あなたの方に向けること</strong>。この一点に特化した石でなければ意味がない。
-    </p>
-
-    <div class="highlight-box">
-      私は霊視鑑定師として20年以上、世界中の天然石を研究してきました。<br>
-      たどり着いたのは、<strong>相手のエネルギーフィールドに働きかける石の真実</strong>です。<br><br>
-      石があなたとあの人の間の波動の架け橋になる。
-      あなたが石を身につけているだけで、あの人は無意識にあなたのことを思い出す頻度が上がっていく。
+    <div class="testimonial">
+      <p>「既婚の彼と毎日連絡を取っていたのに急に距離を置かれて絶望していました。石を身につけてから1ヶ月で、彼の方から『やっぱり君のことが忘れられない』と電話がきました」</p>
+      <p class="meta">40代女性 ・ 既婚者との恋愛</p>
     </div>
-  </section>
 
-  <!-- お客様の声 -->
-  <div class="testimonials">
-    <div class="testimonials-inner">
-      <div class="section-label" style="text-align:center; margin-bottom:28px;">Voice &nbsp; お客様の声</div>
+    <div class="testimonial">
+      <p>「石を持ち始めてから、不思議と追いかける気持ちが消えたんです。穏やかでいられるようになったら、彼から急にデートに誘われるようになりました」</p>
+      <p class="meta">30代女性 ・ 復縁希望</p>
+    </div>
 
-      <div class="testimonial">
-        <p>「4年間音信不通だったツインレイの彼から、石を受け取った5日後にLINEが来ました。心臓が止まるかと思いました」</p>
-        <p class="meta">50代女性 ・ サイレント期間4年</p>
-      </div>
+    <p style="margin-top:28px; font-size:15px; color:#555;">
+      全員に共通するのは、自分から何かをしたわけではないということ。追いかけていない。LINEを送っていない。会いに行っていない。石を身につけて、日常を過ごしていただけ。それなのに、相手の方から動きが出た。これが波動の共鳴の力です。
+    </p>
+  </div>
+</div>
 
-      <div class="testimonial">
-        <p>「ブロックされて半年。石を身につけ始めてから2週間後、ふとInstagramを見たらフォロー申請が来ていて、それが彼でした」</p>
-        <p class="meta">30代女性 ・ 片思い</p>
-      </div>
 
-      <div class="testimonial">
-        <p>「石を持ち始めてから、不思議と追いかける気持ちが消えたんです。穏やかでいられるようになったら、彼から急にデートに誘われるようになりました」</p>
-        <p class="meta">30代女性 ・ 復縁希望</p>
-      </div>
+<!-- 第4通 -->
+<section>
+  <div class="section-label">04 &nbsp; あなた専用の石</div>
+  <h2>縁結び祈願パワーストーン（玉）<br>
+  <span style="font-size:0.75em; color:#555;">─ 本日よりお届け開始 ─</span></h2>
 
-      <div class="testimonial">
-        <p>「既婚の彼と距離を置かれて絶望していました。石を身につけてから1ヶ月で、彼の方から『やっぱり君のことが忘れられない』と電話がきました」</p>
-        <p class="meta">40代女性 ・ 複雑な恋愛</p>
-      </div>
+  <div class="product-image-placeholder">── 商品画像 ──</div>
+
+  <p>これは恋愛運が上がるブレスレットではありません。あの人の意識を、あなたの方に向けるためだけに設計された、波動の装置です。</p>
+
+  <p>なぜ、この石は市場に出回らないのか。量産できないからです。霊視で石を選び、個別に祈願を行う。この工程には、一つの玉につき数日かかります。ネットショップのように在庫1,000個なんて、物理的に不可能なのです。</p>
+
+  <p>だから、これまでは本当に必要だと感じた方にだけ、個別にお声がけしていました。今回、私の体力と時間が許す限りの数だけ、特別にご用意することを決めました。</p>
+
+  <h3>お届け内容</h3>
+
+  <ul class="includes">
+    <li>縁結び祈願済み　天然石（玉）</li>
+    <li>石の意味と効果の個別解説書</li>
+    <li>毎日の浄化方法ガイド</li>
+    <li>黒華直筆の祈願カード</li>
+  </ul>
+
+  <div class="price-block">
+    <div class="price-label">── PRICE ──</div>
+    <div class="price">¥89,800<span>（税込）</span></div>
+    <div class="tax">※ 送料込み</div>
+  </div>
+
+  <h3>お申し込みからお届けまでの流れ</h3>
+
+  <div class="steps">
+    <div class="step">
+      <div class="step-num">STEP 1</div>
+      <div class="step-body"><strong>お申し込み</strong><br>下記リンクから、お申し込みください。</div>
+    </div>
+    <div class="step">
+      <div class="step-num">STEP 2</div>
+      <div class="step-body"><strong>霊視・祈願</strong><br>黒華が霊視を行い、縁結びの祈願を施します。</div>
+    </div>
+    <div class="step">
+      <div class="step-num">STEP 3</div>
+      <div class="step-body"><strong>お届け</strong><br>祈願済みの玉を、解説書・祈願カードとともにお届けします。<br>※お申し込みからお届けまで、通常２〜３週間いただいております。</div>
     </div>
   </div>
 
-  <!-- 商品 -->
-  <section class="product-section">
-    <div class="section-label">04 &nbsp; Product</div>
-    <h2>縁結び祈願パワーストーン<em>（玉）</em></h2>
+  <div class="cta-wrap">
+    <a href="#" class="cta-btn">お申し込みはこちら</a>
+    <p class="cta-sub">※ 先着30名様限定。次回の販売時期は未定です。</p>
+  </div>
+</section>
 
-    <div class="product-image-placeholder">
-      ── 商品画像 ──
-    </div>
 
-    <p>
-      黒華が霊視で選び抜き、縁結びの祈願を施した天然石の玉です。
-      身につけているだけで、あなたの波動はあの人と共鳴する周波数へと整えられていきます。
-    </p>
+<!-- 最後に -->
+<section>
+  <div class="section-label">05 &nbsp; 最後に</div>
+  <h2>あなたへ</h2>
 
-    <ul class="includes">
-      <li>縁結び祈願済み　天然石（玉）</li>
-      <li>石の意味と効果の解説書</li>
-      <li>毎日の浄化方法ガイド</li>
-      <li>黒華直筆の祈願カード</li>
-    </ul>
+  <p>このメッセージを最後まで読んでくれたあなたは、本気で現実を変えたいと願っている方です。</p>
 
-    <div class="price-block">
-      <div class="price-label">── PRICE ──</div>
-      <div class="price">¥89,800<span>（税込）</span></div>
-      <div class="tax">※ 送料込み</div>
-    </div>
+  <p>何年も片思いを続けている方。音信不通の相手を、毎日待ち続けている方。既婚者との関係に苦しみながらも、諦められない方。ブロックされて、連絡手段すら失ってしまった方。</p>
 
-    <div class="guarantee">
-      <div class="g-title">30日間・完全返金保証</div>
-      <p>
-        お届けした石を手にして、自分には合わないと感じたら<br>
-        30日以内であれば全額返金いたします。理由は一切問いません。<br>
-        あなたが失うものは、何も変わらない今の現状だけです。
-      </p>
-    </div>
+  <p>私は、あなたの想いが「重い」とは思いません。それだけ人を愛せることは、素晴らしいことです。その想いが、正しい形であの人に届く日が来る。そのために、私ができることのすべてを、この一つの玉に込めました。</p>
 
-    <div class="cta-wrap">
-      <a href="#" class="cta-btn">お申し込みはこちら</a>
-      <p class="cta-sub">※ 在庫に限りがございます</p>
-    </div>
-  </section>
+  <div class="gold-box" style="text-align:center;">
+    あの人があなたのことを、ふと思い出す。<br>
+    なんか気になると、スマホを手に取る。<br>
+    あなたの名前を見つけて、指が動く──<br><br>
+    <strong>その瞬間が来ることを、私は信じています。</strong><br><br>
+    あなたの恋が、今日、動き出しますように。
+  </div>
 
-  <!-- 締め -->
-  <section>
-    <div class="section-label">05 &nbsp; Message</div>
-    <h2>あなたへ</h2>
+  <p style="text-align:right; font-size:17px; color:#555; letter-spacing:0.25em; margin-top:32px;">黒 華</p>
 
-    <p>
-      何年も片思いを続けている方。音信不通の相手を毎日待ち続けている方。
-      諦められないのに、現実は何も動かない方。
-    </p>
+  <div class="cta-wrap" style="margin-top:48px;">
+    <a href="#" class="cta-btn">お申し込みはこちら</a>
+    <p class="cta-sub">※ 先着30名様限定</p>
+  </div>
+</section>
 
-    <p>
-      私は、あなたの想いが「重い」とは思いません。<br>
-      それだけ人を愛せることは、素晴らしいことです。
-    </p>
 
-    <div class="gold-box" style="text-align:center; font-size:16px;">
-      あの人があなたのことを、ふと思い出す。<br>
-      なんか気になると、スマホを手に取る。<br>
-      あなたの名前を見つけて、指が動く——<br><br>
-      <strong>その瞬間が来ることを、私は信じています。</strong>
-    </div>
+<!-- 追伸 -->
+<div class="postscript">
+  <p>追伸：<br>
+  迷っている方へ。大切なのは金額の大小ではなく、私は現実を変えると決めたあなたの覚悟そのものです。決めた瞬間から、あなたの波動はもう変わり始めています。</p>
 
-    <p style="text-align:right; font-size:17px; color:#555; letter-spacing:0.2em;">
-      黒 華
-    </p>
+  <p>追々伸：<br>
+  あの人のことを想って苦しいのは、あなたの愛が本物だからです。その愛が、正しい形であの人に届く日が来ます。私はそれを、心から信じています。</p>
+</div>
 
-    <div class="cta-wrap">
-      <a href="#" class="cta-btn">お申し込みはこちら</a>
-      <p class="cta-sub">30日間返金保証つき</p>
-    </div>
-  </section>
+<div class="divider">── ── ──</div>
 
-  <div class="divider">── ── ──</div>
-
-  <!-- フッター -->
-  <footer>
-    <div class="footer-brand">黒 華</div>
-    <p>© 2025 黒華 All Rights Reserved.</p>
-  </footer>
+<footer>
+  <div class="footer-brand">黒 華</div>
+  <p>© 2025 黒華 All Rights Reserved.</p>
+</footer>
 
 </body>
 </html>
