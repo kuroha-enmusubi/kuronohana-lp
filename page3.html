@@ -95,7 +95,90 @@
     }
     .testimonial p { font-size: 15px; color: #333; margin-bottom: 10px; }
     .testimonial .meta { font-size: 12px; color: #999; margin-bottom: 0; }
+    .product-image-placeholder {
+      width: 100%;
+      max-width: 380px;
+      height: 320px;
+      background: linear-gradient(135deg, #f5f0e8 0%, #ede5d0 100%);
+      border: 1px solid #d4c9a8;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 40px;
+      font-size: 13px;
+      color: #a89060;
+      letter-spacing: 0.2em;
+    }
+    .anchor-label {
+      font-size: 11px;
+      letter-spacing: 0.3em;
+      color: #999;
+      margin-bottom: 8px;
+    }
+    .anchor-price {
+      font-size: 28px;
+      color: #aaa;
+      text-decoration: line-through;
+      letter-spacing: 0.05em;
+      margin-bottom: 6px;
+    }
+    .anchor-reason {
+      font-size: 14px;
+      color: #888;
+      line-height: 1.9;
+      margin-bottom: 32px;
+    }
+    .value-stack {
+      list-style: none;
+      margin: 28px 0;
+      padding: 0;
+      border-top: 1px solid #e8e0d0;
+    }
+    .value-stack li {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      padding: 14px 0;
+      border-bottom: 1px solid #e8e0d0;
+      font-size: 15px;
+      color: #333;
+      gap: 12px;
+    }
+    .value-stack li .item-name { flex: 1; }
+    .value-stack li .item-price { color: #999; font-size: 14px; white-space: nowrap; }
+    .value-stack .total-row {
+      font-size: 16px;
+      color: #1a1a1a;
+      font-weight: bold;
+      padding: 18px 0;
+      border-bottom: 2px solid #1a1a1a;
+    }
+    .value-stack .total-row .item-price { color: #999; }
+    .price-block {
+      background: #1a1a1a;
+      color: #fff;
+      padding: 40px 30px;
+      text-align: center;
+      margin: 36px 0;
+    }
+    .price-block .price-label { font-size: 11px; letter-spacing: 0.3em; color: #c8a84b; margin-bottom: 12px; }
+    .price-block .price { font-size: 48px; color: #fff; letter-spacing: 0.02em; line-height: 1.2; }
+    .price-block .price span { font-size: 18px; color: #ccc; }
+    .price-block .tax { font-size: 12px; color: #aaa; margin-top: 8px; }
+    .next-tease {
+      border: 1px solid #e0d8c8;
+      border-top: 3px solid #c8a84b;
+      padding: 30px 28px;
+      margin: 48px 0;
+      text-align: center;
+      background: #faf8f4;
+    }
+    .next-tease .tease-label { font-size: 11px; letter-spacing: 0.3em; color: #c8a84b; margin-bottom: 14px; }
+    .next-tease p { font-size: 15px; color: #555; margin-bottom: 0; }
     .sign { text-align: right; font-size: 17px; color: #555; letter-spacing: 0.25em; margin-top: 52px; }
+    @media (max-width: 480px) {
+      .price-block .price { font-size: 36px; }
+    }
     .prev-link { text-align: center; padding: 20px; border-bottom: 1px solid #f0f0f0; }
     .prev-link a { font-size: 13px; color: #999; letter-spacing: 0.15em; text-decoration: none; border-bottom: 1px solid #ddd; padding-bottom: 2px; }
     .prev-link a:hover { color: #c8a84b; border-color: #c8a84b; }
@@ -362,10 +445,86 @@
   </p>
   <p>それなのに、相手の方から動きが出た。<span class="r">これが波動の共鳴の力です。</span></p>
 
+  <h2>神縁石について、正直にお話しします</h2>
+
+  <div class="product-image-placeholder">── 商品画像 ──</div>
+
   <p>
-    <strong>次の配信が届いたら、すぐに読んでください。</strong><br>
-    神縁石の詳細と、お届けについてのご案内をお伝えします。
+    神縁石は、これまで個別鑑定にお越しの方にだけお渡ししていました。<br>
+    対面で霊視し、その方の状況を見極めた上で、1対1でお届けしてきたものです。
   </p>
+  <p>
+    今回、初めて一般向けにご案内することを決めました。<br>
+    理由は一つ。<span class="r">もっと多くの方に、この現実の変化を体験してほしいから。</span>
+  </p>
+
+  <h2>価格について、正直にお話しします</h2>
+
+  <p>
+    神縁石の玉を一つ、霊視で選定し縁結びの祈願を施すには、<br>
+    通常の個別鑑定では<strong>110,000円</strong>をいただいています。
+  </p>
+  <div class="anchor-label">── 通常価格 ──</div>
+  <div class="anchor-price">¥110,000（玉のみ）</div>
+  <p class="anchor-reason">
+    これは、霊視・選定・祈願に数日を要する作業であり、<br>
+    鑑定師として私が持てる力のすべてを一つの石に込めるための対価です。<br>
+    値引きすることは、これまで一度もありませんでした。
+  </p>
+  <p>
+    今回、初めての一般向け販売にあたり、<br>
+    一人でも多くの方の手に届けたいという思いから、<strong>特別価格</strong>でご提供します。<br>
+    さらに──玉だけでは、持ち歩き方や保管方法がわからない方も多い。<br>
+    <span class="r">だから今回は、すぐに使い始められるセットでお届けします。</span>
+  </p>
+
+  <ul class="value-stack">
+    <li>
+      <span class="item-name">神縁石（天然石・玉1つ）<br><small style="font-size:12px;color:#999;">霊視選定・縁結び祈願込み</small></span>
+      <span class="item-price">¥110,000相当</span>
+    </li>
+    <li>
+      <span class="item-name">専用巾着袋<br><small style="font-size:12px;color:#999;">いつでも持ち歩けるよう、石にやさしい素材で</small></span>
+      <span class="item-price">¥3,000相当</span>
+    </li>
+    <li>
+      <span class="item-name">神縁石専用 木箱<br><small style="font-size:12px;color:#999;">自宅での保管・浄化のために</small></span>
+      <span class="item-price">¥8,000相当</span>
+    </li>
+    <li>
+      <span class="item-name">神縁石専用 浄化石<br><small style="font-size:12px;color:#999;">石のエネルギーを定期的に整えるために</small></span>
+      <span class="item-price">¥5,000相当</span>
+    </li>
+    <li class="total-row">
+      <span class="item-name">合計</span>
+      <span class="item-price">¥126,000相当</span>
+    </li>
+  </ul>
+
+  <div class="price-block">
+    <div class="price-label">── 今回の特別価格 ──</div>
+    <div class="price">¥89,800<span>（税込）</span></div>
+    <div class="tax">※ 送料込み ／ 先着30名様限定</div>
+  </div>
+
+  <p>
+    126,000円相当のセットが、89,800円。<br>
+    しかも、玉だけを単品で買うより<strong>36,200円お得</strong>なうえ、すぐに使い始められる状態でお届けします。
+  </p>
+  <p>
+    霊視・祈願という工程がある以上、量産はできません。<br>
+    <strong>今回ご用意できるのは、先着30名様分のみです。</strong><br>
+    次回の販売時期は、現時点では未定です。
+  </p>
+
+  <div class="next-tease">
+    <div class="tease-label">── 次の配信 ──</div>
+    <p>
+      お申し込みの詳細は、<strong>次の配信</strong>でお伝えします。<br>
+      見逃さないようにしてください。<br>
+      前回の販売は、3日で全枠が埋まりました。
+    </p>
+  </div>
 
   <p class="sign">黒 華</p>
 
