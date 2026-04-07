@@ -20,7 +20,6 @@
       text-align: center;
     }
     header .brand { font-size: 13px; letter-spacing: 0.3em; color: #888; }
-
     .hero {
       padding: 70px 20px 60px;
       text-align: center;
@@ -44,7 +43,6 @@
     }
     .hero h1 em { color: #c0392b; font-style: normal; }
     .hero .sub { font-size: 15px; color: #555; max-width: 580px; margin: 0 auto; }
-
     .content {
       max-width: 740px;
       margin: 0 auto;
@@ -59,7 +57,6 @@
       border-left: 3px solid #c8a84b;
     }
     p { margin-bottom: 22px; color: #333; }
-
     .highlight-box {
       background: #fff9f9;
       border: 1px solid #e8c0c0;
@@ -67,7 +64,7 @@
       padding: 22px 26px;
       margin: 32px 0;
       font-size: 15px;
-      line-height: 1.9;
+      line-height: 2.2;
     }
     .gold-box {
       background: #fdfaf2;
@@ -76,9 +73,8 @@
       padding: 22px 26px;
       margin: 32px 0;
       font-size: 15px;
-      line-height: 1.9;
+      line-height: 2.2;
     }
-
     .product-image-placeholder {
       width: 100%;
       max-width: 360px;
@@ -93,7 +89,6 @@
       color: #a89060;
       letter-spacing: 0.2em;
     }
-
     .includes {
       list-style: none;
       margin: 24px 0 32px;
@@ -107,7 +102,6 @@
       color: #333;
     }
     .includes li::before { content: "─"; position: absolute; left: 0; color: #c8a84b; }
-
     .price-block {
       background: #1a1a1a;
       color: #fff;
@@ -119,7 +113,6 @@
     .price-block .price { font-size: 46px; color: #fff; letter-spacing: 0.02em; line-height: 1.2; }
     .price-block .price span { font-size: 18px; color: #ccc; }
     .price-block .tax { font-size: 12px; color: #aaa; margin-top: 8px; }
-
     .steps { margin: 32px 0; }
     .step {
       display: flex;
@@ -136,9 +129,8 @@
       padding-top: 3px;
       min-width: 60px;
     }
-    .step-body { font-size: 15px; color: #333; line-height: 1.8; }
+    .step-body { font-size: 15px; color: #333; line-height: 1.9; }
     .step-body strong { color: #1a1a1a; }
-
     .cta-wrap { text-align: center; margin: 48px 0; }
     .cta-btn {
       display: inline-block;
@@ -149,18 +141,16 @@
       letter-spacing: 0.15em;
       padding: 20px 52px;
       text-decoration: none;
-      border: none;
-      cursor: pointer;
       transition: background 0.2s;
     }
     .cta-btn:hover { background: #a93226; }
     .cta-sub { font-size: 12px; color: #999; margin-top: 10px; letter-spacing: 0.1em; }
-
     .sign { text-align: right; font-size: 17px; color: #555; letter-spacing: 0.25em; margin-top: 40px; }
-
     .postscript { border-top: 1px solid #f0f0f0; padding-top: 40px; margin-top: 48px; }
     .postscript p { font-size: 14px; color: #555; margin-bottom: 18px; }
-
+    .prev-link { text-align: center; padding: 32px 20px; border-top: 1px solid #f0f0f0; }
+    .prev-link a { font-size: 13px; color: #999; letter-spacing: 0.15em; text-decoration: none; border-bottom: 1px solid #ddd; padding-bottom: 2px; }
+    .prev-link a:hover { color: #c8a84b; border-color: #c8a84b; }
     footer {
       background: #1a1a1a;
       color: #888;
@@ -170,10 +160,6 @@
       letter-spacing: 0.1em;
     }
     footer .footer-brand { color: #c8a84b; font-size: 15px; letter-spacing: 0.3em; margin-bottom: 10px; }
-    .prev-link { text-align: center; padding: 32px 20px; border-top: 1px solid #f0f0f0; }
-    .prev-link a { font-size: 13px; color: #999; letter-spacing: 0.15em; text-decoration: none; border-bottom: 1px solid #ddd; padding-bottom: 2px; }
-    .prev-link a:hover { color: #c8a84b; border-color: #c8a84b; }
-
     @media (max-width: 480px) {
       .price-block .price { font-size: 36px; }
       .cta-btn { padding: 18px 32px; font-size: 15px; }
@@ -223,9 +209,13 @@
   <p>これまで、あの人のことで占いや鑑定に使った金額は、合計でいくらになりますか？</p>
   <p>叶わない恋に費やした時間は、何年ですか？</p>
   <p>眠れない夜は、何百回ありましたか？</p>
-  <p>その苦しみが、あと1年、2年、5年と続くとしたら──その失われる時間に値段をつけるとしたら──</p>
+  <p>
+    その苦しみが、あと1年、2年、5年と続くとしたら──<br>
+    その失われる時間に値段をつけるとしたら──
+  </p>
   <div class="highlight-box">
-    本当に高いのは、この石の値段ではなく──<br><br>
+    本当に高いのは、この石の値段ではなく──<br>
+    <br>
     あの人を想いながら、何も変わらない日々を過ごし続けることの代償です。
   </div>
 
@@ -242,15 +232,25 @@
     </div>
     <div class="step">
       <div class="step-num">STEP 3</div>
-      <div class="step-body"><strong>お届け</strong><br>祈願済みの玉を、解説書・祈願カードとともにお届けします。<br>※お申し込みからお届けまで、通常２〜３週間いただいております。</div>
+      <div class="step-body">
+        <strong>お届け</strong><br>
+        祈願済みの玉を、解説書・祈願カードとともにお届けします。<br>
+        ※お申し込みからお届けまで、通常２〜３週間いただいております。
+      </div>
     </div>
   </div>
 
   <h2>お申し込みについて</h2>
 
   <p>先着30名様限定</p>
-  <p>一つ一つ霊視で選び、個別に祈願を行うため、これ以上の数を受けることは物理的に不可能です。</p>
-  <p>前回（個別にお声がけした際）は、3日で全枠が埋まりました。今回は、さらに多くの方にご案内しているため、早期に埋まることが予想されます。</p>
+  <p>
+    一つ一つ霊視で選び、個別に祈願を行うため、<br>
+    これ以上の数を受けることは物理的に不可能です。
+  </p>
+  <p>
+    前回（個別にお声がけした際）は、3日で全枠が埋まりました。<br>
+    今回は、さらに多くの方にご案内しているため、早期に埋まることが予想されます。
+  </p>
   <p>次回の販売時期は未定です。</p>
 
   <div class="cta-wrap">
@@ -261,15 +261,28 @@
   <h2>最後に</h2>
 
   <p>このメッセージを最後まで読んでくれたあなたは、本気で現実を変えたいと願っている方です。</p>
-  <p>何年も片思いを続けている方。音信不通の相手を、毎日待ち続けている方。既婚者との関係に苦しみながらも、諦められない方。ブロックされて、連絡手段すら失ってしまった方。</p>
-  <p>私は、あなたの想いが「重い」とは思いません。それだけ人を愛せることは、素晴らしいことです。</p>
-  <p>その想いが、正しい形であの人に届く日が来る。そのために、私ができることのすべてを、この一つの玉に込めました。</p>
+  <p>
+    何年も片思いを続けている方。<br>
+    音信不通の相手を、毎日待ち続けている方。<br>
+    既婚者との関係に苦しみながらも、諦められない方。<br>
+    ブロックされて、連絡手段すら失ってしまった方。
+  </p>
+  <p>
+    私は、あなたの想いが「重い」とは思いません。<br>
+    それだけ人を愛せることは、素晴らしいことです。
+  </p>
+  <p>
+    その想いが、正しい形であの人に届く日が来る。<br>
+    そのために、私ができることのすべてを、この一つの玉に込めました。
+  </p>
 
   <div class="gold-box" style="text-align:center;">
     あの人があなたのことを、ふと思い出す。<br>
     なんか気になると、スマホを手に取る。<br>
-    あなたの名前を見つけて、指が動く──<br><br>
-    <strong>その瞬間が来ることを、私は信じています。</strong><br><br>
+    あなたの名前を見つけて、指が動く──<br>
+    <br>
+    <strong>その瞬間が来ることを、私は信じています。</strong><br>
+    <br>
     あなたの恋が、今日、動き出しますように。
   </div>
 
@@ -281,10 +294,18 @@
   </div>
 
   <div class="postscript">
-    <p>追伸：<br>
-    迷っている方へ。大切なのは金額の大小ではなく、私は現実を変えると決めたあなたの覚悟そのものです。決めた瞬間から、あなたの波動はもう変わり始めています。</p>
-    <p>追々伸：<br>
-    あの人のことを想って苦しいのは、あなたの愛が本物だからです。その愛が、正しい形であの人に届く日が来ます。私はそれを、心から信じています。</p>
+    <p>
+      追伸：<br>
+      迷っている方へ。<br>
+      大切なのは金額の大小ではなく、私は現実を変えると決めたあなたの覚悟そのものです。<br>
+      決めた瞬間から、あなたの波動はもう変わり始めています。
+    </p>
+    <p>
+      追々伸：<br>
+      あの人のことを想って苦しいのは、あなたの愛が本物だからです。<br>
+      その愛が、正しい形であの人に届く日が来ます。<br>
+      私はそれを、心から信じています。
+    </p>
   </div>
 
 </div>
